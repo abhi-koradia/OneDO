@@ -10,7 +10,7 @@ function MobileNavbar(props) {
     <nav className="mobile-navbar">
       <span className="row g1">
         <img class="icon-lg" src={logo} />
-        <h3 className="mobile-heading">OneDo</h3>
+        <h3 className="mobile-heading">OneDO</h3>
       </span>
       <IconBtn
         class="tertiary-icon-btn-sm"

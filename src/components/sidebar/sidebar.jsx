@@ -14,7 +14,7 @@ function Sidebar(props) {
       <div className="sidebar-items col top-space-lg">
         <span className="row aic bottom-space-md">
           <img class="icon-lg right-space-sm" src={logo} />
-          <h1 className="primary-heading">OneDo</h1>
+          <h1 className="primary-heading">OneDO</h1>
         </span>
         {sidebarElements.map((item) => (
           <NavLink key={item.icon} to={item.route}>
