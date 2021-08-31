@@ -1,0 +1,34 @@
+@import '../../styles/scss/1-global/global';
+
+.form-sm,
+.form-md,
+.form-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0);
+  width: 228px;
+  padding: 0 0 0 10px;
+  color: var(--sub-text-color);
+  border: 2px solid #363b40;
+  border-radius: $radius-sm;
+  &:hover {
+    box-shadow: var(--todo-hover);
+  }
+  &:focus {
+    border: 2px solid $blue;
+    box-shadow: 0 0 0 3px rgba(101, 163, 255, 0.3);
+  }
+}
+
+.form-sm {
+  height: 28px;
+}
+
+.form-md {
+  height: 32px;
+}
+
+.form-lg {
+  height: 40px;
+}

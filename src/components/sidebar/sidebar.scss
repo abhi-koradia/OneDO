@@ -1,0 +1,54 @@
+@import '../../styles/scss/1-global/global';
+
+#sidebar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  flex-direction: column;
+  background: var(--primary-bg);
+  top: 0;
+}
+
+#sidebar .row .icon-sm {
+  fill: var(--sub-text-color);
+}
+
+.sidebar-items {
+  display: flex;
+  gap: 1rem;
+}
+
+@media (min-width: 1200px) {
+  #sidebar {
+    width: 20%;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #sidebar {
+    width: 30%;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #sidebar {
+    width: 35%;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  #sidebar {
+    width: 40%;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 480px) {
+  #sidebar {
+    display: none;
+  }
+}

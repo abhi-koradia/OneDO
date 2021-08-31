@@ -1,0 +1,87 @@
+@import '../../styles/scss/1-global/global';
+
+#todo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 80%;
+  min-height: 100vh;
+  height: auto;
+  background: var(--secondary-bg);
+  margin: 0 0 0 20%;
+}
+
+.main-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 650px;
+}
+
+.search-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.todo-items {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 600px;
+  height: auto;
+  min-height: 600px;
+  gap: 1rem;
+  margin: 1rem 0 0 0;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #todo {
+    width: 65%;
+    min-height: 100vh;
+    margin: 0 0 0 35%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #todo {
+    width: 65%;
+    min-height: 100vh;
+    margin: 0 0 0 35%;
+  }
+
+  .main-content {
+    width: 550px;
+  }
+
+  .todo-items {
+    width: 550px;
+    height: auto;
+    min-height: 600px;
+    gap: 1rem;
+    margin: 1rem 0 0 0;
+  }
+}
+
+@media (max-width: 480px) {
+  #todo {
+    width: 100%;
+    min-height: 200px;
+    margin: 75px 0 0 0;
+  }
+
+  .main-content {
+    width: 300px;
+  }
+
+  .todo-items {
+    width: 300px;
+    height: auto;
+    min-height: 400px;
+    gap: 1rem;
+    margin: 1rem 0 0 0;
+  }
+}

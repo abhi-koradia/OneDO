@@ -1,0 +1,28 @@
+@import '../../styles/scss/1-global/global';
+
+.textarea {
+  display: flex;
+  width: 410px;
+  height: 124px;
+  padding: 10px 0 0 10px;
+  background: rgba(255, 255, 255, 0);
+  color: var(--sub-text-color);
+  border-radius: $radius-md;
+  box-sizing: border-box;
+  border: 2px solid #363b40;
+  font-size: $sub-text;
+  &:hover {
+    box-shadow: var(--todo-hover);
+  }
+  &:focus {
+    border: 2px solid $blue;
+    box-shadow: 0 0 0 3px rgba(101, 163, 255, 0.3);
+  }
+}
+
+@media (max-width: 480px) {
+  .textarea {
+    width: 330px;
+    height: 200px;
+  }
+}

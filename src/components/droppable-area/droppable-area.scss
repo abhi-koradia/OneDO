@@ -1,0 +1,62 @@
+@import '../../styles/scss/1-global/global';
+
+.droppable-area {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 300px;
+  min-height: 600px;
+  height: auto;
+  background: #28262d;
+  border-radius: $radius-xxl;
+  box-sizing: border-box;
+  padding: 1rem;
+
+  .droppable-area-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 270px;
+    height: 40px;
+    border-radius: $radius-md;
+    background: var(--secondary-bg);
+    box-sizing: border-box;
+    padding: 0 5px 0 1rem;
+
+    .simple-text {
+      color: var(--sub-text-color);
+    }
+
+    .droppable-area-count {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      background: var(--primary-bg);
+      border-radius: $radius-sm;
+      color: var(--sub-text-color);
+    }
+  }
+
+  .droppable-area-items {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 270px;
+    height: auto;
+
+    .secondary-btn-lg {
+      width: 270px;
+      border: 2px solid var(--sub-text-color);
+      color: var(--sub-text-color);
+      background: rgba(255, 255, 255, 0);
+      &:hover {
+        border: 2px solid $blue;
+        color: $blue;
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+@import '../../styles/scss/1-global/global.scss';
+
+.primary-icon-btn-sm,
+.primary-icon-btn-md,
+.primary-icon-btn-lg,
+.secondary-icon-btn-sm,
+.secondary-icon-btn-md,
+.secondary-icon-btn-lg,
+.tertiary-icon-btn-xs,
+.tertiary-icon-btn-sm,
+.tertiary-icon-btn-md,
+.tertiary-icon-btn-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tertiary-icon-btn-xs {
+  width: 30px;
+  height: 30px;
+  border-radius: $radius-sm;
+}
+
+.primary-icon-btn-sm,
+.secondary-icon-btn-sm,
+.tertiary-icon-btn-sm {
+  width: 40px;
+  height: 40px;
+  border-radius: $radius-md;
+}
+
+.secondary-icon-btn-md,
+.secondary-icon-btn-md,
+.tertiary-icon-btn-md {
+  width: 50px;
+  height: 50px;
+  border-radius: $radius-md;
+}
+
+.primary-icon-btn-lg,
+.secondary-icon-btn-lg,
+.tertiary-icon-btn-lg {
+  width: 60px;
+  height: 60px;
+  border-radius: $radius-lg;
+}
+
+.primary-icon-btn-sm,
+.primary-icon-btn-md,
+.primary-icon-btn-lg,
+.secondary-icon-btn-sm,
+.secondary-icon-btn-md,
+.secondary-icon-btn-lg {
+  &:hover {
+    box-shadow: $hover;
+  }
+  &:focus {
+    box-shadow: $focus;
+  }
+  &:active {
+    background: $blue-s1;
+  }
+}
+
+.primary-icon-btn-sm,
+.primary-icon-btn-md,
+.primary-icon-btn-lg {
+  background: $blue;
+
+  .icon-sm,
+  .icon-md {
+    color: $white;
+  }
+}
+
+.secondary-icon-btn-sm,
+.secondary-icon-btn-md,
+.secondary-icon-btn-lg {
+  border: $blue-border;
+  box-sizing: border-box;
+
+  .icon-sm,
+  .icon-md {
+    color: $blue;
+  }
+}
+
+.tertiary-icon-btn-xs,
+.tertiary-icon-btn-sm,
+.tertiary-icon-btn-md,
+.tertiary-icon-btn-lg {
+  background: rgba(255, 255, 255, 0);
+
+  .icon-xs,
+  .icon-sm,
+  .icon-md {
+    color: var(--sub-text-color);
+  }
+  &:hover,
+  &:focus {
+    background: var(--hover-color);
+    .icon-sm,
+    .icon-md {
+      color: var(--text-color);
+    }
+  }
+  &:focus {
+    box-shadow: $focus;
+  }
+}

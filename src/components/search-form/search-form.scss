@@ -1,0 +1,113 @@
+@import '../../styles/scss/1-global/global';
+
+.search-input {
+  display: flex;
+  background: var(--primary-bg);
+  border-radius: $radius-lg;
+  color: var(--sub-text-color);
+  font-size: $simple-text;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  &:hover {
+    box-shadow: var(--todo-hover);
+  }
+  &:focus {
+    box-shadow: $focus;
+  }
+}
+
+.search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background: var(--secondary-bg);
+  color: var(--sub-text-color);
+  border-radius: $radius-md;
+  &:hover {
+    background: var(--hover-color);
+  }
+  &:focus {
+    box-shadow: $focus;
+  }
+}
+
+.search-input:focus .check-div {
+  display: flex;
+}
+
+@media (min-width: 1200px) {
+  .search-input {
+    width: 450px;
+    height: 50px;
+    padding-left: 20px;
+    &:focus {
+      width: 480px;
+    }
+  }
+
+  .search-btn {
+    width: 75px;
+    height: 40px;
+    margin: 20px 5px 0 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .search-input {
+    width: 450px;
+    height: 50px;
+    padding-left: 20px;
+    &:focus {
+      width: 480px;
+    }
+  }
+
+  .search-btn {
+    width: 75px;
+    height: 40px;
+    margin: 20px 5px 0 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .search-input {
+    display: flex;
+    width: 400px;
+    height: 45px;
+    padding-left: 10px;
+    &:focus {
+      box-shadow: $focus;
+      width: 430px;
+    }
+  }
+
+  .search-btn {
+    width: 55px;
+    height: 35px;
+    margin: 20px 5px 0 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+  .search-input {
+    display: flex;
+    width: 275px;
+    height: 40px;
+    padding-left: 10px;
+    &:focus {
+      box-shadow: $focus;
+      width: 300px;
+    }
+  }
+
+  .search-btn {
+    width: 50px;
+    height: 30px;
+    margin: 20px 5px 0 0;
+  }
+}

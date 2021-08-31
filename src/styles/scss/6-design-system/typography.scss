@@ -1,0 +1,32 @@
+@import '../1-global/global';
+
+.primary-heading {
+  display: flex;
+  font-size: $primary-heading;
+  color: var(--text-color);
+  font-weight: $black-weight;
+  letter-spacing: 0.01rem;
+  line-height: 1.2rem;
+}
+
+.secondary-heading {
+  display: flex;
+  font-size: $secondary-heading;
+  color: var(--text-color);
+  font-weight: $bold-weight;
+}
+
+.tertiary-heading {
+  display: flex;
+  font-size: $tertiary-heading;
+  color: var(--text-color);
+  font-weight: $bold-weight;
+}
+
+.simple-text {
+  display: flex;
+  font-size: $simple-text;
+  color: var(--text-color);
+  font-weight: $regular-weight;
+  line-height: 1.8rem;
+}

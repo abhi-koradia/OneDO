@@ -1,0 +1,21 @@
+export const icons = {
+  logo: 'icons/logo.svg#logo',
+  check: 'icons/check.svg#check',
+  delete: 'icons/delete.svg#delete',
+  more: 'icons/more.svg#more',
+  table: 'icons/table.svg#table',
+  taskList: 'icons/task-list.svg#task-list',
+  close: 'icons/close.svg#close',
+  caretDown: 'icons/caret-down.svg#caret-down',
+  caretRight: 'icons/caret-right.svg#caret-right',
+  circleCheck: 'icons/circle-check.svg#circle-check',
+  circleError: 'icons/circle-error.svg#circle-error',
+  circleHelp: 'icons/circle-help.svg#circle-help',
+  circleInformation: 'icons/circle-information.svg#circle-information',
+  pen: 'icons/pen.svg#pen',
+  moon: 'icons/moon.svg#moon',
+  sun: 'icons/sun.svg#sun',
+  twitter: 'icons/twitter.svg#twitter',
+  github: 'icons/github.svg#github',
+  telegram: 'icons/telegram.svg#telegram'
+}
