@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/OneDo/static/css/main.d4960a38.chunk.css",
+    "main.js": "/OneDo/static/js/main.9834c54b.chunk.js",
+    "main.js.map": "/OneDo/static/js/main.9834c54b.chunk.js.map",
+    "runtime-main.js": "/OneDo/static/js/runtime-main.5f502f0f.js",
+    "runtime-main.js.map": "/OneDo/static/js/runtime-main.5f502f0f.js.map",
+    "static/js/2.415b2447.chunk.js": "/OneDo/static/js/2.415b2447.chunk.js",
+    "static/js/2.415b2447.chunk.js.map": "/OneDo/static/js/2.415b2447.chunk.js.map",
+    "index.html": "/OneDo/index.html",
+    "static/css/main.d4960a38.chunk.css.map": "/OneDo/static/css/main.d4960a38.chunk.css.map",
+    "static/js/2.415b2447.chunk.js.LICENSE.txt": "/OneDo/static/js/2.415b2447.chunk.js.LICENSE.txt",
+    "static/media/yellow-icon.07b12064.jpg": "/OneDo/static/media/yellow-icon.07b12064.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f502f0f.js",
+    "static/js/2.415b2447.chunk.js",
+    "static/css/main.d4960a38.chunk.css",
+    "static/js/main.9834c54b.chunk.js"
+  ]
+}
