@@ -1,8 +1,8 @@
-## OneDo
+# OneDo
 
 Simple todo app with clear design and good functionality.
 
-# Features
+## Features
 
 1.Fully adaptive
 
